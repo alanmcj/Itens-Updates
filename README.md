@@ -7,6 +7,9 @@ Serve apenas para publicar **Releases** com instaladores e atualizações pronta
 
 O código-fonte do programa fica em um repositório **privado** e **não está aqui**.
 
+As Releases públicas são **espelhadas automaticamente** a partir do repositório privado
+quando uma release é publicada lá (sem GeradorCapa). Não é necessário publicar à mão neste repo.
+
 ---
 
 ## Downloads
