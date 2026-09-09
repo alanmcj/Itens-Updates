@@ -1,0 +1,16 @@
+{
+  "version": "1.4.30",
+  "tag": "v1.4.30",
+  "published_at": "2026-09-09",
+  "linux": {
+    "asset": "programa-de-inventario-linux-x86_64.tar.gz",
+    "url": "https://github.com/alanmcj/Itens-Updates/releases/latest/download/programa-de-inventario-linux-x86_64.tar.gz",
+    "sha256": "SUBSTITUA"
+  },
+  "android": {
+    "asset": "coletor-android-release.apk",
+    "url": "https://github.com/alanmcj/Itens-Updates/releases/latest/download/coletor-android-release.apk",
+    "sha256": "SUBSTITUA"
+  },
+  "notes": "Somente binários. Sem código-fonte."
+}
