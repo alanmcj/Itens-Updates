@@ -15,7 +15,6 @@ O código-fonte do programa fica em um repositório **privado** e **não está a
 | --- | --- |
 | Página da última release | https://github.com/alanmcj/Itens-Updates/releases/latest |
 | Pacote desktop (Linux x86_64) | https://github.com/alanmcj/Itens-Updates/releases/latest/download/programa-de-inventario-linux-x86_64.tar.gz |
-| Gerador de capa (opcional) | https://github.com/alanmcj/Itens-Updates/releases/latest/download/gerador-capa-linux-x86_64.tar.gz |
 | Coletor Android APK (opcional) | https://github.com/alanmcj/Itens-Updates/releases/latest/download/coletor-android-release.apk |
 
 Confira sempre o arquivo `SHA256SUMS` da mesma release (quando publicado).
@@ -27,7 +26,6 @@ Confira sempre o arquivo `SHA256SUMS` da mesma release (quando publicado).
 | Arquivo | Obrigatório | Descrição |
 | --- | --- | --- |
 | `programa-de-inventario-linux-x86_64.tar.gz` | sim | Pacote desktop Itens (binário + runtime PostgreSQL portátil + scripts de abertura/atualização) |
-| `gerador-capa-linux-x86_64.tar.gz` | opcional | GeradorCapa (ferramenta auxiliar) |
 | `coletor-android-release.apk` | opcional | APK do coletor Android |
 | `coletor-app.json` | opcional | Metadados do APK (versão/sha) para atualização automática |
 | `SHA256SUMS` | recomendado | Checksums SHA-256 dos arquivos da release |

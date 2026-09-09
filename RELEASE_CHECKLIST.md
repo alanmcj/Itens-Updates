@@ -5,7 +5,6 @@ Canal público **somente de binários**. O código-fonte permanece no repo priva
 ## Pode ir na Release
 
 - `programa-de-inventario-linux-x86_64.tar.gz`
-- `gerador-capa-linux-x86_64.tar.gz` (opcional)
 - `coletor-android-release.apk` + `coletor-app.json` (opcional)
 - `SHA256SUMS`
 - `README-pacote.md` / notas da versão (texto)
@@ -26,7 +25,6 @@ No diretório dos artefatos (ex.: `.release_dist/` do monorepo privado):
 cd .release_dist
 sha256sum \
   programa-de-inventario-linux-x86_64.tar.gz \
-  gerador-capa-linux-x86_64.tar.gz \
   coletor-android-release.apk \
   2>/dev/null > SHA256SUMS
 cat SHA256SUMS
@@ -64,7 +62,6 @@ gh release create "$TAG" \
   --title "Programa de Inventário ${TAG}" \
   --notes "$NOTES" \
   programa-de-inventario-linux-x86_64.tar.gz \
-  gerador-capa-linux-x86_64.tar.gz \
   coletor-android-release.apk \
   coletor-app.json \
   SHA256SUMS
